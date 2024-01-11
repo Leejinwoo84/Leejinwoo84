@@ -7,6 +7,7 @@ console.log(add(8, 9));
 
 // 익명(Anonymous) 함수
 const anonymousSum = function (a, b) {
+    
     return a + b;
 }
 console.log(anonymousSum(3, 4));

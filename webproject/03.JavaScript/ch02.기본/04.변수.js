@@ -15,8 +15,8 @@ console.log(`둘레는 ${2 * pi * radius}, 면적은 ${pi * radius * radius} 입
 // 복합 대입 연산자
 let a = 1, str = '';
 a += 2;             // a = a + 2
-str += 'A quick brown fox ';
-str += 'jumps over the lazy dog.';
+str += 'A quick brown fox ';    //str = str + 'A';
+str += 'jumps over the lazy dog.'; // str = str + 'j';
 console.log(a, str);
 
 // 증감 연산자

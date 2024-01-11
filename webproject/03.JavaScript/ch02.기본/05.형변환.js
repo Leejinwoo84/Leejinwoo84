@@ -6,7 +6,6 @@ console.log(Number('hello'));       // NaN, Not a Number
 
 // 아래 경우를 제외하면 모두 참(true)
 console.log(Boolean(0), Boolean(0.0), Boolean(''), Boolean(undefined), Boolean(null), Boolean(NaN));
-
 // 자동 변환
 // + 연산자:    boolean -> number -> string 으로 변환
 console.log(123 + true, 'bool ' + true, 'integer ' + 123);

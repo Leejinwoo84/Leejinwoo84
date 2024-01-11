@@ -3,7 +3,6 @@
 // 배열은 객체의 특수한 형태
 let fruitArray = ['감', '귤', '밤', '배'];
 console.log(typeof fruitArray);
-
 let fruitObject = {0:'감', 1:'귤', 2:'밤', 3:'배'};
 console.log(fruitArray[0], fruitObject[1]);
 

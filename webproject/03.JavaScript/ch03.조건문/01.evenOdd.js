@@ -1,9 +1,15 @@
 // 홀수/짝수
 let num = Math.ceil(Math.random() * 100);       // 1 ~ 100 사이의 정수값
+      /*= Math.random(1 + 100 );    <- Math.random() 0~1 사이의 무한한소수값을 구하는것 같은데 식이 완성되는이유. % 때문?*/
+num = Math.random() * 100;
+console.log(`${num}`);
+num = Math.ceil(num);
+console.log(`${num}`);
 
 if (num % 2 == 0) {
-    console.log(`${num} 은/는 짝수입니다.`);
+    console.log(`${num} 은/는 짝수입니다.`);            // () :연산, {} : 객체, []: 배열 ?
 }
+
 if (num % 2 == 1) {
     console.log(`${num} 은/는 홀수입니다.`);
 }

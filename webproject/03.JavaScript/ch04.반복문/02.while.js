@@ -15,3 +15,11 @@ while (sum <= 21) {
     sum += dice;            // 조건을 변화하는 실행문이 없으면 무한 루프에 빠짐, 탈출하려면 Ctrl-C
 }
 console.log(sum);
+
+sum = 0;
+for(sum = 0; sum <= 21; ){
+    let dice = Math.ceil(Math.random()*6);
+    console.log(dice);
+    sum += dice;
+}
+console.log(sum);

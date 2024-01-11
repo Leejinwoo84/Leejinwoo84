@@ -17,6 +17,8 @@ for (let i = 0; i < 5; i++) {
     console.log(star);
 }
 
+console.log('\n');
+
 // 4사분면
 for (let i = 5; i > 0; i--) {
     let star = '';

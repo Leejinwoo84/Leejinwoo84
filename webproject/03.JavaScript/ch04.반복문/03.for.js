@@ -2,7 +2,7 @@
 // 1에서 1000까지 합 구하기
 let sum = 0;
 for(let i = 1; i <= 1000; i++) {
-    sum += i;
+    sum += i;       // sum = sum + i
 }
 console.log(`1에서 1000까지 합은 ${sum}`);
 

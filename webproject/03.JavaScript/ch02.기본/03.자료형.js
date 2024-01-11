@@ -28,3 +28,5 @@ let x = 10;
 console.log(x > 8 || x < -3);       // 논리 연산자 || (or), x > 8 또는 x < -3
 console.log(x > 8 && x < 12);       // && (and), 8 < x < 12
 console.log(true > 10);
+console.log(Number(true));
+console.log(Number(false));
